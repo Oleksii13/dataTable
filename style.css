@@ -1,0 +1,124 @@
+/* html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+}
+
+/* body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+} */
+.row {
+  margin: 0;
+  padding: 0 !important;
+  /* --bs-gutter-x: 0 !important; */
+}
+
+.flex-even {
+  flex: 1;
+}
+/* .rounded {
+  border-radius: 0 !important;
+} */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mainTable {
+  /* width: 100%; */
+  margin: 1% !important;
+}
+
+#divIncidents {
+  margin: 1%;
+  /* padding: 5%; */
+  /* width: 100%; */
+  background-color: transparent;
+  font-size: 1rem;
+
+  border-collapse: collapse;
+  margin: 1%;
+
+  /* min-width: 400px; */
+  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); */
+  /* border-radius: 25px; */
+}
+.mb-5 {
+  margin-bottom: 15rem;
+}
+
+.sourceStyle {
+  line-height: 2.5;
+  border-top: 1px solid rgba(153, 150, 150, 0.5);
+  background-color: white;
+  /* box-shadow: 3px 3px 5px 6px rgb(141, 138, 138); */
+}
+.source {
+  font-weight: 500;
+}
+.cohort {
+  background-color: #eeeded;
+  /* padding-left: 0; */
+  /* box-shadow: 3px 3px 5px 6px rgb(141, 138, 138); */
+  box-shadow: inset 0 1px 10px 0 #d8d6d6;
+}
+.cohortStyle {
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.deviceStyle {
+  font-weight: 500;
+}
+.device {
+  background-color: rgb(209, 210, 211);
+  padding: 0;
+  margin: 0;
+
+  box-shadow: inset 0 1px 10px 0 #bbbaba81;
+}
+.btn {
+  padding: 5px 0px 15px 10px;
+  font-size: 0.8rem;
+  margin-right: 3px;
+  color: rgb(61, 60, 60);
+  border: none;
+}
+.btn:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.trHeadStyle {
+  background-color: #4143ec;
+  color: #ffffff;
+  /* text-align: left; */
+}
+.trHead .thHead {
+  font-weight: 500;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+/* $container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+); */
